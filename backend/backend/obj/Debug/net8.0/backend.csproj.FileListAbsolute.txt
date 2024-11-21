@@ -141,3 +141,4 @@ D:\Collaborations_Projects\WorkWithMe\backend\backend\obj\Debug\net8.0\refint\ba
 D:\Collaborations_Projects\WorkWithMe\backend\backend\obj\Debug\net8.0\backend.pdb
 D:\Collaborations_Projects\WorkWithMe\backend\backend\obj\Debug\net8.0\backend.genruntimeconfig.cache
 D:\Collaborations_Projects\WorkWithMe\backend\backend\obj\Debug\net8.0\ref\backend.dll
+D:\Collaborations_Projects\WorkWithMe\backend\backend\bin\Debug\net8.0\BCrypt.Net-Next.dll

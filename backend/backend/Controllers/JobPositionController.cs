@@ -25,7 +25,7 @@ namespace backend.Controllers
 
             Position position = new Position()
             {
-                PositionId = $"{Guid.NewGuid()}",
+                PositionId = Guid.NewGuid().ToString(),
                 JobId = JobId,
                 Title = jobPositionDto.Title,
                 Price = jobPositionDto.Price,

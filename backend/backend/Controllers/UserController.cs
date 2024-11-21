@@ -116,7 +116,7 @@ namespace backend.Controllers
 
             var result = userRepository.CreateUser(user);
 
-            if (!result.Success) return BadRequest(new { success = result.Success, message = result.Message });
+            if (!result.Success) return BadRequest(new { success = result.Success, message = result.Message , user = result.Data});
 
             return Ok(new {success =  result.Success, message = result.Message});
         }

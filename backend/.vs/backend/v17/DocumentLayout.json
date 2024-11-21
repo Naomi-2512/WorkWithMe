@@ -3,12 +3,44 @@
   "WorkspaceRootPath": "D:\\Collaborations_Projects\\WorkWithMe\\backend\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{B49D3B28-ED45-4DA4-A1DC-2E5B7A2B5185}|backend\\backend.csproj|d:\\collaborations_projects\\workwithme\\backend\\backend\\repository\\approvalrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B49D3B28-ED45-4DA4-A1DC-2E5B7A2B5185}|backend\\backend.csproj|solutionrelative:backend\\repository\\approvalrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B49D3B28-ED45-4DA4-A1DC-2E5B7A2B5185}|backend\\backend.csproj|d:\\collaborations_projects\\workwithme\\backend\\backend\\repository\\paymentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B49D3B28-ED45-4DA4-A1DC-2E5B7A2B5185}|backend\\backend.csproj|solutionrelative:backend\\repository\\paymentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B49D3B28-ED45-4DA4-A1DC-2E5B7A2B5185}|backend\\backend.csproj|d:\\collaborations_projects\\workwithme\\backend\\backend\\repository\\jobrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B49D3B28-ED45-4DA4-A1DC-2E5B7A2B5185}|backend\\backend.csproj|solutionrelative:backend\\repository\\jobrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{B49D3B28-ED45-4DA4-A1DC-2E5B7A2B5185}|backend\\backend.csproj|d:\\collaborations_projects\\workwithme\\backend\\backend\\repository\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B49D3B28-ED45-4DA4-A1DC-2E5B7A2B5185}|backend\\backend.csproj|solutionrelative:backend\\repository\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{B49D3B28-ED45-4DA4-A1DC-2E5B7A2B5185}|backend\\backend.csproj|d:\\collaborations_projects\\workwithme\\backend\\backend\\repository\\jobpositionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B49D3B28-ED45-4DA4-A1DC-2E5B7A2B5185}|backend\\backend.csproj|solutionrelative:backend\\repository\\jobpositionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{B49D3B28-ED45-4DA4-A1DC-2E5B7A2B5185}|backend\\backend.csproj|d:\\collaborations_projects\\workwithme\\backend\\backend\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B49D3B28-ED45-4DA4-A1DC-2E5B7A2B5185}|backend\\backend.csproj|solutionrelative:backend\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B49D3B28-ED45-4DA4-A1DC-2E5B7A2B5185}|backend\\backend.csproj|d:\\collaborations_projects\\workwithme\\backend\\backend\\controllers\\paymentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B49D3B28-ED45-4DA4-A1DC-2E5B7A2B5185}|backend\\backend.csproj|solutionrelative:backend\\controllers\\paymentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B49D3B28-ED45-4DA4-A1DC-2E5B7A2B5185}|backend\\backend.csproj|d:\\collaborations_projects\\workwithme\\backend\\backend\\controllers\\jobpositioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B49D3B28-ED45-4DA4-A1DC-2E5B7A2B5185}|backend\\backend.csproj|solutionrelative:backend\\controllers\\jobpositioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B49D3B28-ED45-4DA4-A1DC-2E5B7A2B5185}|backend\\backend.csproj|d:\\collaborations_projects\\workwithme\\backend\\backend\\controllers\\jobcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B49D3B28-ED45-4DA4-A1DC-2E5B7A2B5185}|backend\\backend.csproj|solutionrelative:backend\\controllers\\jobcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B49D3B28-ED45-4DA4-A1DC-2E5B7A2B5185}|backend\\backend.csproj|d:\\collaborations_projects\\workwithme\\backend\\backend\\controllers\\approvalcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B49D3B28-ED45-4DA4-A1DC-2E5B7A2B5185}|backend\\backend.csproj|solutionrelative:backend\\controllers\\approvalcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B49D3B28-ED45-4DA4-A1DC-2E5B7A2B5185}|backend\\backend.csproj|d:\\collaborations_projects\\workwithme\\backend\\backend\\interfaces\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -38,11 +70,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 14,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\Collaborations_Projects\\WorkWithMe\\backend\\backend\\Program.cs",
               "RelativeDocumentMoniker": "backend\\Program.cs",
@@ -55,7 +87,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 13,
               "Title": "DataContext.cs",
               "DocumentMoniker": "D:\\Collaborations_Projects\\WorkWithMe\\backend\\backend\\Data\\DataContext.cs",
               "RelativeDocumentMoniker": "backend\\Data\\DataContext.cs",
@@ -64,12 +96,123 @@
               "ViewState": "AgIAALwAAAAAAAAAAAAuwMwAAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-08T19:11:50.092Z",
-              "IsPinned": true,
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ApprovalRepository.cs",
+              "DocumentMoniker": "D:\\Collaborations_Projects\\WorkWithMe\\backend\\backend\\Repository\\ApprovalRepository.cs",
+              "RelativeDocumentMoniker": "backend\\Repository\\ApprovalRepository.cs",
+              "ToolTip": "D:\\Collaborations_Projects\\WorkWithMe\\backend\\backend\\Repository\\ApprovalRepository.cs",
+              "RelativeToolTip": "backend\\Repository\\ApprovalRepository.cs",
+              "ViewState": "AgIAAHkAAAAAAAAAAAAYwI0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-16T14:42:37.049Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
+              "Title": "PaymentRepository.cs",
+              "DocumentMoniker": "D:\\Collaborations_Projects\\WorkWithMe\\backend\\backend\\Repository\\PaymentRepository.cs",
+              "RelativeDocumentMoniker": "backend\\Repository\\PaymentRepository.cs",
+              "ToolTip": "D:\\Collaborations_Projects\\WorkWithMe\\backend\\backend\\Repository\\PaymentRepository.cs",
+              "RelativeToolTip": "backend\\Repository\\PaymentRepository.cs",
+              "ViewState": "AgIAAC8AAAAAAAAAAAAIwCYAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-16T14:41:36.37Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "JobRepository.cs",
+              "DocumentMoniker": "D:\\Collaborations_Projects\\WorkWithMe\\backend\\backend\\Repository\\JobRepository.cs",
+              "RelativeDocumentMoniker": "backend\\Repository\\JobRepository.cs",
+              "ToolTip": "D:\\Collaborations_Projects\\WorkWithMe\\backend\\backend\\Repository\\JobRepository.cs",
+              "RelativeToolTip": "backend\\Repository\\JobRepository.cs",
+              "ViewState": "AgIAAGoAAAAAAAAAAAAYwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-16T14:41:14.116Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "JobPositionRepository.cs",
+              "DocumentMoniker": "D:\\Collaborations_Projects\\WorkWithMe\\backend\\backend\\Repository\\JobPositionRepository.cs",
+              "RelativeDocumentMoniker": "backend\\Repository\\JobPositionRepository.cs",
+              "ToolTip": "D:\\Collaborations_Projects\\WorkWithMe\\backend\\backend\\Repository\\JobPositionRepository.cs",
+              "RelativeToolTip": "backend\\Repository\\JobPositionRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-16T11:17:48.935Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ApprovalController.cs",
+              "DocumentMoniker": "D:\\Collaborations_Projects\\WorkWithMe\\backend\\backend\\Controllers\\ApprovalController.cs",
+              "RelativeDocumentMoniker": "backend\\Controllers\\ApprovalController.cs",
+              "ToolTip": "D:\\Collaborations_Projects\\WorkWithMe\\backend\\backend\\Controllers\\ApprovalController.cs",
+              "RelativeToolTip": "backend\\Controllers\\ApprovalController.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAA1wB0AAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-16T10:07:53.422Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "JobController.cs",
+              "DocumentMoniker": "D:\\Collaborations_Projects\\WorkWithMe\\backend\\backend\\Controllers\\JobController.cs",
+              "RelativeDocumentMoniker": "backend\\Controllers\\JobController.cs",
+              "ToolTip": "D:\\Collaborations_Projects\\WorkWithMe\\backend\\backend\\Controllers\\JobController.cs",
+              "RelativeToolTip": "backend\\Controllers\\JobController.cs",
+              "ViewState": "AgIAACwAAAAAAAAAAAAwwD0AAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-16T10:07:17.506Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "JobPositionController.cs",
+              "DocumentMoniker": "D:\\Collaborations_Projects\\WorkWithMe\\backend\\backend\\Controllers\\JobPositionController.cs",
+              "RelativeDocumentMoniker": "backend\\Controllers\\JobPositionController.cs",
+              "ToolTip": "D:\\Collaborations_Projects\\WorkWithMe\\backend\\backend\\Controllers\\JobPositionController.cs",
+              "RelativeToolTip": "backend\\Controllers\\JobPositionController.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAQwBsAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-16T10:06:22.911Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "PaymentController.cs",
+              "DocumentMoniker": "D:\\Collaborations_Projects\\WorkWithMe\\backend\\backend\\Controllers\\PaymentController.cs",
+              "RelativeDocumentMoniker": "backend\\Controllers\\PaymentController.cs",
+              "ToolTip": "D:\\Collaborations_Projects\\WorkWithMe\\backend\\backend\\Controllers\\PaymentController.cs",
+              "RelativeToolTip": "backend\\Controllers\\PaymentController.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAgwCYAAABQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-16T10:04:14.858Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
               "Title": "CreateUserDto.cs",
               "DocumentMoniker": "D:\\Collaborations_Projects\\WorkWithMe\\backend\\backend\\Dto\\UserDto\\CreateUserDto.cs",
               "RelativeDocumentMoniker": "backend\\Dto\\UserDto\\CreateUserDto.cs",
@@ -77,12 +220,11 @@
               "RelativeToolTip": "backend\\Dto\\UserDto\\CreateUserDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-14T08:42:32.16Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-14T08:42:32.16Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 10,
               "Title": "IUserRepository.cs",
               "DocumentMoniker": "D:\\Collaborations_Projects\\WorkWithMe\\backend\\backend\\Interfaces\\IUserRepository.cs",
               "RelativeDocumentMoniker": "backend\\Interfaces\\IUserRepository.cs",
@@ -90,25 +232,24 @@
               "RelativeToolTip": "backend\\Interfaces\\IUserRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAABEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-14T08:39:04.303Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-14T08:39:04.303Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "UserRepository.cs",
               "DocumentMoniker": "D:\\Collaborations_Projects\\WorkWithMe\\backend\\backend\\Repository\\UserRepository.cs",
               "RelativeDocumentMoniker": "backend\\Repository\\UserRepository.cs",
               "ToolTip": "D:\\Collaborations_Projects\\WorkWithMe\\backend\\backend\\Repository\\UserRepository.cs",
               "RelativeToolTip": "backend\\Repository\\UserRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAAHIAAAAAAAAAAAAQwGMAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-14T08:11:10.695Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 12,
               "Title": "User.cs",
               "DocumentMoniker": "D:\\Collaborations_Projects\\WorkWithMe\\backend\\backend\\Models\\User.cs",
               "RelativeDocumentMoniker": "backend\\Models\\User.cs",
@@ -121,24 +262,16 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 5,
               "Title": "UserController.cs",
               "DocumentMoniker": "D:\\Collaborations_Projects\\WorkWithMe\\backend\\backend\\Controllers\\UserController.cs",
               "RelativeDocumentMoniker": "backend\\Controllers\\UserController.cs",
               "ToolTip": "D:\\Collaborations_Projects\\WorkWithMe\\backend\\backend\\Controllers\\UserController.cs",
               "RelativeToolTip": "backend\\Controllers\\UserController.cs",
-              "ViewState": "AgIAAFsAAAAAAAAAAAAcwAYAAAARAAAAAAAAAA==",
+              "ViewState": "AgIAAGwAAAAAAAAAAAAmwHYAAACDAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-14T08:10:47.177Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
             }
           ]
         }

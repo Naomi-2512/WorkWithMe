@@ -25,7 +25,7 @@ namespace backend.Controllers
 
             Payment payment = new Payment()
             {
-                PaymentId = $"{Guid.NewGuid()}",
+                PaymentId = Guid.NewGuid().ToString(),
                 JobId = paymentDto.JobId ,
                 UserId = UserId ,
                 Price = paymentDto.Price ,

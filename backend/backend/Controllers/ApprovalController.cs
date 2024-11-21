@@ -25,7 +25,7 @@ namespace backend.Controllers
 
             var approval = new Approval
             {
-                ApprovalId = $"{Guid.NewGuid()}",
+                ApprovalId = Guid.NewGuid().ToString(),
                 JobId = approvalDto.JobId ,
                 OwnerId = approvalDto.OwnerId ,
                 ApplierId = approvalDto.ApplierId ,

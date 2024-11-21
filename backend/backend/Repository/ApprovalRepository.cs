@@ -28,7 +28,7 @@ namespace backend.Repository
 
             if (!Save()) return new RepositoryResult<Approval>(false, "Unable to create job approval at the moment", new List<Approval>());
 
-            return new RepositoryResult<Approval>(Save(), "Job approval submitted successfully.", new List<Approval>());
+            return new RepositoryResult<Approval>(true, "Job approval submitted successfully.", new List<Approval>());
 
         }
 
@@ -46,7 +46,7 @@ namespace backend.Repository
 
             if (!Save()) return new RepositoryResult<Approval>(false, "Unable to update job approval at the moment", new List<Approval>());
 
-            return new RepositoryResult<Approval>(Save(), "Job approval updated successfully.", new List<Approval>());
+            return new RepositoryResult<Approval>(true, "Job approval updated successfully.", new List<Approval>());
 
         }
 
@@ -62,7 +62,7 @@ namespace backend.Repository
 
             if (!Save()) return new RepositoryResult<Approval>(false, "Unable to dismiss approval at the moment.", new List<Approval>());
 
-            return new RepositoryResult<Approval>(Save(), "Approval successfully dismissed", new List<Approval>());
+            return new RepositoryResult<Approval>(true, "Approval successfully dismissed", new List<Approval>());
         }
 
         public RepositoryResult<Approval> GetApprovals()

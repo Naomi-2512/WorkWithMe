@@ -34,9 +34,9 @@ namespace backend.Repository
 
             job.IsActivated = true;
 
-            if (!Save()) return new RepositoryResult<Payment>(Save(), "Unable to activate job at the moment.", new List<Payment>());
+            if (!Save()) return new RepositoryResult<Payment>(false, "Unable to activate job at the moment.", new List<Payment>());
 
-            return new RepositoryResult<Payment>(Save(), "Payment successfully retrieved, your job is now activated.", new List<Payment>());
+            return new RepositoryResult<Payment>(true, "Payment successfully retrieved, your job is now activated.", new List<Payment>());
         }
 
         public RepositoryResult<Payment> GetPaymentsByUserId(string UserId)

@@ -26,9 +26,9 @@ namespace backend.Repository
 
             dataContext.Positions.Add(position);
 
-            if (!Save()) return new RepositoryResult<Position>(Save(), "Unable to create position at the moment.", new List<Position>());
+            if (!Save()) return new RepositoryResult<Position>(false, "Unable to create position at the moment.", new List<Position>());
 
-            return new RepositoryResult<Position>(Save(), "Position created successfully", new List<Position>());
+            return new RepositoryResult<Position>(true, "Position created successfully", new List<Position>());
         }
 
         public RepositoryResult<Position> UpdatePosition(string PositionId, Position position)
@@ -45,9 +45,9 @@ namespace backend.Repository
             _position.RequiredUsers = position.RequiredUsers;
             _position.TimePeriod = position.TimePeriod;
 
-            if (!Save()) return new RepositoryResult<Position>(Save(), "Unable to update position at the moment.", new List<Position>());
+            if (!Save()) return new RepositoryResult<Position>(false, "Unable to update position at the moment.", new List<Position>());
 
-            return new RepositoryResult<Position>(Save(), "Position updated successfully", new List<Position>());
+            return new RepositoryResult<Position>(true, "Position updated successfully", new List<Position>());
         }
 
         public RepositoryResult<Position> GetPositionsByJobId(string JobId)
