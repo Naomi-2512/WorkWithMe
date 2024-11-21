@@ -3,6 +3,7 @@ using backend.Dto.LoginsDto;
 using backend.Interfaces;
 using backend.Models;
 using backend.RepositoryResults;
+using System.Linq;
 
 namespace backend.Repository
 {
@@ -46,10 +47,7 @@ namespace backend.Repository
             return new RepositoryResult<Approval>(true, "Users retrieved successfully", users);
         }
 
-        public bool Save()
-        {
-            return dataContext.SaveChanges() > 1;
-        }
+        public bool Save() => dataContext.SaveChanges() == 1;
 
         public RepositoryResult<User> DeleteUser(string UserId)
         {
@@ -70,13 +68,13 @@ namespace backend.Repository
         {
             if(user == null) return new RepositoryResult<User>(false, "Input credatials should be valid.", new List<User>());
 
-            User? emailExist = dataContext.Users.FirstOrDefault(user=>user.Email == user.Email);
+            User? emailExist = dataContext.Users.FirstOrDefault(email => email.Email == user.Email);
 
-            if (emailExist != null) return new RepositoryResult<User>(false, "The email provided exist, try loging in instead.", new List<User>());
+            if (emailExist is not null) return new RepositoryResult<User>(false, "The email provided exist, try loging in instead.", emailExist);
 
-            User? phoneExists = dataContext.Users.FirstOrDefault(user => user.Mobile == user.Mobile);
+            User? phoneExists = dataContext.Users.FirstOrDefault(phone => phone.Mobile == user.Mobile);
 
-            if (phoneExists != null) return new RepositoryResult<User>(false, "The phone number provided exists, login to continue", new List<User>());
+            if (phoneExists  is not null) return new RepositoryResult<User>(false, "The phone number provided exists, login to continue", phoneExists);
 
             dataContext.Users.Add(user);
 
@@ -95,11 +93,11 @@ namespace backend.Repository
 
             User? emailExist = dataContext.Users.FirstOrDefault(user => (user.Email != _user.Email));
 
-            if (emailExist != null) return new RepositoryResult<User>(false, "The email you changed exists, update using new email.", new List<User>());
+            if (emailExist is not null) return new RepositoryResult<User>(false, "The email you changed exists, update using new email.", new List<User>());
 
             User? phoneExists = dataContext.Users.FirstOrDefault(user => user.Mobile != _user.Mobile);
 
-            if (phoneExists != null) return new RepositoryResult<User>(false, "The phone number changed exists, update using new phone number", new List<User>());
+            if (phoneExists is not null) return new RepositoryResult<User>(false, "The phone number changed exists, update using new phone number", new List<User>());
 
             bool passwordMatches = BCrypt.Net.BCrypt.Verify(user.Password, _user.Password);
 

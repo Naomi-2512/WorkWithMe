@@ -59,7 +59,7 @@ namespace backend.Controllers
 
             var job = new Job
             {
-                JobId = $"{Guid.NewGuid()}",
+                JobId = Guid.NewGuid().ToString(),
                 UserId = UserId,
                 Title = jobDto.Title,
                 CompanyName = jobDto.CompanyName,
