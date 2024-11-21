@@ -1,1 +1,61 @@
-<p>registration works!</p>
+<div class="entirepage">
+    <!-- <div class="message" *ngIf="errorMessage" [style]="display">
+        <p>{{errorMessage}}</p>
+      </div>
+      <div class="message" *ngIf="success" [style]="display">
+        <p>{{success}}</p>
+      </div> -->
+    <div class="container">
+      <div class="imageDiv">
+        <img src="../../../form1.webp" alt="Image">
+      </div>
+      <div class="formDiv">
+        <h1 style="color: #2ab891;">Sign up</h1>
+        <form >
+          <div class="form-group">
+            <label for="username">Username *</label>
+            <input type="text" id="username" name="userName" formControlName="userName">
+          </div>
+          <div class="form-group">
+            <label for="image">Image *</label>
+            <input type="file" id="image" name="profileImage">
+          </div>
+          <div class="form-group">
+            <label for="email">Email *</label>
+            <input type="email" id="email" name="email" formControlName="email">
+          </div>
+          <div class="form-group">
+            <label for="password">Password *</label>
+            <input type="password" id="password" name="password" formControlName="password">
+          </div>
+          <div class="form-group">
+            <label for="confirmPassword">Confirm <br> Password *</label>
+            <input type="password" id="confirmPassword" name="confirmPassword" formControlName="confirmPassword">
+          </div>
+          <div class="form-group">
+            <label for="phone_number">Phone Number</label>
+            <input type="text" id="phone_number" name="phoneNumber" formControlName="phoneNumber">
+          </div>
+          <div class="form-group">
+            <label for="location">Location</label>
+            <input type="text" id="location" name="location" formControlName="location">
+          </div>
+          <div class="form-group">
+            <label for="role">Register as</label>
+            <select id="role" name="userRole" formControlName="userRole">
+              <option value="">Select Role</option>
+              <option value="user">findJob</option>
+              <option value="manager">createJob</option>
+            </select>
+          </div>
+          <div class="formGroup">
+            <button type="submit">Register</button>
+          </div>
+          <div class="formGroup">
+            <p>Already have an account? <a routerLink="/login" style="color: #2ab891;">Login here</a></p>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+  

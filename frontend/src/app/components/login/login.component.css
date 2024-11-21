@@ -1,0 +1,93 @@
+.entirePage{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.message{
+    display: none;
+    width: 40%;
+    color: white;
+    height: 10%;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    border-radius: 10px;
+    top: 5vh;
+    padding:10px;
+}
+.container{
+    width: 70%;
+    height: 60%;
+    display: flex;
+    flex-direction: row;
+    border: 1px solid;
+    border-radius: 10px;
+}
+.imageDiv{
+    height: 100%;
+    width: 50%;
+    border-radius: 10px;
+}
+.imageDiv img{
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+    border-radius: 10px;
+}
+.formDiv{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+form{
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+}
+.title{
+    width: 100%;
+    height: 16%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.form-group{
+  width: 90%;  
+  height: 16%;
+  margin-left: 6px;
+  display: flex;
+  margin-bottom: 3px;
+  justify-content: space-between;
+  align-items: center;
+}
+.formGroup{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    margin-bottom: 5px;
+}
+button{
+    width: 35%;
+    height: 70%;
+    background-color: #2ab891;
+    border: none;
+    border-radius: 5px;
+    color: white;
+}
+input{
+    height: 50%;
+    width: 80%;
+    margin-right: 2px;
+     border-radius: 5px;
+     border: 1px solid;
+}
+label{
+    width: 20%;
+}

@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #1cbb7e;
+}
+
+.top-nav {
+    background-color: #333;
+    color: rgb(46, 24, 126);
+    padding: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.top-nav .nav-item {
+    margin-right: 20px;
+    color: rgb(170, 46, 46);
+    cursor: pointer;
+}
+
+.search-bar {
+    margin-left: auto;
+    padding: 5px;
+    border-radius: 3px;
+    border: none;
+}
+
+.sign-up, .log-in {
+    margin-left: 10px;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 3px;
+    color: white;
+    background-color: #28a745;
+}
+
+.container {
+    display: flex;
+}
+
+.sidebar {
+    width: 250px;
+    background-color: #2175c9;
+    padding: 20px;
+    height: calc(100vh - 50px);
+    overflow-y: auto;
+}
+
+.sidebar h3 {
+    color: #f31111;
+    margin-bottom: 10px;
+}
+
+.sidebar ul {
+    list-style: none;
+}
+
+.sidebar ul li {
+    margin: 10px 0;
+}
+
+.sidebar ul li a {
+    text-decoration: none;
+    color: #333;
+}
+
+.sidebar ul li a:hover {
+    color: #007bff;
+}
+
+.content {
+    flex: 1;
+    padding: 20px;
+}
+
+.tutorial-section {
+    background-color: #8d1660;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+.tutorial-section h5 {
+    color: #c4a107;
+}
+
+.tutorial-section p {
+    color: #333;
+}

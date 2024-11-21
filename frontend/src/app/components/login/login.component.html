@@ -1,1 +1,38 @@
-<p>login works!</p>
+<div class="entirePage">
+    <!-- <div class="message" *ngIf="errorMessage" [style]="display">
+      <p>{{errorMessage}}</p>
+    </div>
+    <div class="message" *ngIf="success" [style]="display">
+      <p>{{success}}</p>
+    </div> -->
+      <div class="container">
+          <div class="imageDiv">
+              <img src="../../../form1.webp" alt="image">
+          </div>
+          <div class="formDiv">
+              <form>
+                <div class="title">
+                  <h1 style="color:#2ab891;">Welcome back!!!</h1>
+                </div>
+                  <div class="form-group">
+                      <label for="email">Email *</label>
+                      <input type="email" id="email" >
+                    </div>
+                    <div class="form-group">
+                      <label for="password">Password *</label>
+                      <input type="password" id="password">
+                    </div>
+                    <div class="formGroup">
+                      <p>Forgot Password? <a routerLink="/resetPassword" style="color: #2ab891;">Reset here</a></p>
+                    </div>
+                    <div class="formGroup">
+                      <button type="submit">Login</button>
+                    </div>
+                    <div class="formGroup">
+                      <p>Don't have an account? <a routerLink="/register" style="color: #2ab891;">Register here</a></p>
+                    </div>
+              </form>
+          </div>
+      </div>
+  </div>
+  

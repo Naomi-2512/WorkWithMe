@@ -1,0 +1,83 @@
+.entirepage{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.message{
+    display: none;
+    width: 40%;
+    color: white;
+    height: 10%;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    border-radius: 10px;
+    top: 5vh;
+    padding:10px;
+}
+.container{
+    width: 70%;
+    height: 70%;
+    display: flex;
+    flex-direction: row;
+    border: 1px solid;
+    border-radius: 10px;
+}
+.imageDiv{
+    height: 100%;
+    width: 50%;
+    border-radius: 10px;
+}
+.imageDiv img{
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+    border-radius: 10px;
+}
+.formDiv{
+    height: 80%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+form{
+    width: 100%;
+    height: 100%;
+}
+.form-group{
+  width: 90%;  
+  height: 13%;
+  margin-left: 6px;
+  display: flex;
+  margin-bottom: 3px;
+  justify-content: space-between;
+  align-items: center;
+}
+.formGroup{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 20px;
+    margin-bottom: 5px;
+}
+button{
+    width: 35%;
+    height: 30px;
+    background-color: #2ab891;
+    border: none;
+    border-radius: 5px;
+    color: white;
+}
+input{
+    height: 70%;
+    border-radius: 5px;
+    border: 1px solid;
+    width: 80%;
+    margin-right: 2px;
+}
+label{
+    width: 20%;
+}

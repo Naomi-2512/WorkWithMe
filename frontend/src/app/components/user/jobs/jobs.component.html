@@ -1,1 +1,15 @@
-<p>jobs works!</p>
+<div class="contents">
+    <div class="content" *ngFor="let job of jobs">
+        <div class="top">
+            <h2>{{job.title}}</h2>
+            <h4>{{job.dateCreated}}</h4>
+        </div>
+        <div class="middle">
+            <p>{{job.description}}.</p>
+        </div>
+        <div class="bottom">
+            <button>Details</button>
+            <button>Apply</button>
+        </div>
+    </div>    
+</div>

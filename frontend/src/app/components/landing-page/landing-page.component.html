@@ -1,1 +1,484 @@
-<p>landing-page works!</p>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Job Marketplace Landing Page</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f7f7f7;
+    }
+
+    /* Header section */
+    .header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 20px;
+      background-color: #e0f7e6;
+    }
+
+    .header h1 {
+      font-size: 24px;
+      color: #333;
+    }
+
+    .header nav a {
+      margin-left: 20px;
+      color: #333;
+      text-decoration: none;
+      font-size: 16px;
+    }
+
+    .header nav a.signin {
+      background-color: #4CAF50;
+      color: white;
+      padding: 8px 16px;
+      border-radius: 4px;
+    }
+
+    /* Main content */
+    .main-content {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      background-color: #e0f7e6;
+      padding: 40px 20px;
+    }
+
+    .main-content h2 {
+      font-size: 32px;
+      color: #333;
+    }
+
+    .main-content p {
+      font-size: 18px;
+      color: #555;
+      max-width: 600px;
+      margin: 10px 0 30px;
+    }
+
+    .image-gallery {
+      display: flex;
+      gap: 15px;
+      margin: 20px 0;
+    }
+
+    .image-gallery img {
+      width: 200px;
+      height: 150px;
+      border-radius: 8px;
+      object-fit: cover;
+    }
+
+    /* How it works section */
+    .how-it-works {
+      background-color: white;
+      padding: 40px 20px;
+      text-align: center;
+    }
+
+    .how-it-works h3 {
+      font-size: 24px;
+      color: #333;
+      margin-bottom: 30px;
+    }
+
+    .steps {
+      display: flex;
+      justify-content: center;
+      gap: 30px;
+    }
+
+    .step {
+      width: 250px;
+      padding: 20px;
+      background-color: #f1f1f1;
+      border-radius: 8px;
+      text-align: center;
+    }
+
+    .step h4 {
+      font-size: 20px;
+      color: #333;
+      margin-bottom: 10px;
+    }
+
+    .step p {
+      font-size: 16px;
+      color: #555;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Header Section -->
+  <header class="header">
+    <h1>WWM</h1>
+    <nav>
+      <a href="#find-jobs" class="drop-cap">Find Jobs</a>
+      <a href="#">Register</a>
+      <a href="#" class="signin">Sign In</a>
+    </nav>
+  </header>
+<!-- Link Target Section -->
+<section id="find-jobs">
+    <!-- Content for the Find Jobs section -->
+  </section>
+  
+  <!-- Add this CSS for the Drop Cap styling -->
+  <style>
+    .navbar {
+      display: flex;
+      gap: 20px;
+      padding: 20px;
+      background-color: #ffffff;
+    }
+  
+    .navbar a {
+      text-decoration: none;
+      font-size: 16px;
+      color: #333;
+    }
+  
+    /* Drop Cap Style for Find Jobs */
+    .drop-cap {
+      position: relative;
+    }
+  
+    .drop-cap::first-letter {
+      font-size: 24px; /* Larger font for the first letter */
+      font-weight: bold;
+      color: #2ca678; /* Change color to highlight */
+      margin-right: 2px;
+    }
+  </style>
+  <!-- Main Content -->
+  <section class="main-content">
+    <h2>Your Next <span style="color: #4CAF50;">Opportunity</span> Awaits</h2>
+    <p>Explore jobs and apply with ease to roles that match your skills and career goals.</p>
+    
+    <!-- Image Gallery -->
+    <div class="image-gallery">
+      <img src="image1.jpg" alt="Image 1">
+      <img src="image2.jpg" alt="Image 2">
+    </div>
+  </section>
+
+  <!-- How It Works Section -->
+  <section class="how-it-works">
+    <h3>How It Works</h3>
+    <div class="steps">
+      <div class="step">
+        <div class="step-item" onclick="redirect('register.html')"></div>
+        <h4>Register an Account</h4>
+        <p>Sign up as a user or job manager</p>
+      </div>
+      <div class="step">
+        <div class="step-item" onclick="redirect('browse_jobs.html')"></div>
+        <h4>Browse Jobs or Post a Job</h4>
+        <p>Users can find jobs; job managers can post new opportunities.</p>
+      </div>
+    </div>
+  </section>
+  <!-- Continuation of the previous code -->
+
+<!-- Additional How It Works Section -->
+<section class="how-it-works">
+    <div class="steps">
+      <div class="step">
+         <div class="step-item" onclick="redirect('apply_jobs.html')">
+        <h4>Apply for Jobs or Review Applicants</h4>
+        <p>Users apply; managers review and approve applicants.</p>
+         </div>
+      </div>
+      <div class="step">
+        <div class="step-item" onclick="redirect('track_progress.html')"></div>
+        <h4>Track Progress and Payments</h4>
+        <p>Keep track of workdays and payment status.</p>
+      </div>
+    </div>
+  </section>
+  <script>
+    function redirect(page) {
+        window.location.href = page;
+    }
+</script>
+  <!-- Job Categories Section -->
+  <section class="job-categories">
+    <h3>Job Categories</h3>
+    <div class="categories">
+      <div class="category-card">
+        <img src="tech.png" alt="Tech">
+        <h4>Tech</h4>
+        <p>Connect with top tech companies seeking innovative minds for roles in development, data analysis, design, and more.</p>
+      </div>
+      <div class="category-card">
+        <img src="tech.png" alt="Construction">
+        <h4>Construction</h4>
+        <p>Explore opportunities in construction, from project management to skilled trades. Build your career in an essential industry that shapes the world around us.</p>
+      </div>
+      <div class="category-card">
+        <img src="tech.png" alt="Shop Vacancies">
+        <h4>Shop Vacancies</h4>
+        <p>Find job openings in local shops and retail outlets, perfect for those who love engaging with customers and driving sales.</p>
+      </div>
+    </div>
+  </section>
+  
+  <!-- Jobs Section -->
+  <section class="jobs">
+    <h3>Jobs</h3>
+    <div class="job-cards">
+      <div class="job-card">
+        <h4>Frontend Developer</h4>
+        <p>🕒 Fulltime · posted 4hrs ago</p>
+        <p>Join our team to create dynamic, user-friendly web applications. Ideal for developers with expertise in JavaScript, React, and UI/UX principles.</p>
+        <button>Apply Now</button>
+      </div>
+      <div class="job-card">
+        <h4>Cashier</h4>
+        <p>🕒 Fulltime · posted 4hrs ago</p>
+        <p>Friendly cashier needed for a local shop. Handle customer transactions and maintain a welcoming environment.</p>
+        <button>Apply Now</button>
+      </div>
+      <div class="job-card">
+        <h4>Project Manager</h4>
+        <p>🕒 Fulltime · posted 4hrs ago</p>
+        <p>Lead construction projects from planning through completion. Seeking an experienced manager with strong organizational skills.</p>
+        <button>Apply Now</button>
+      </div>
+    </div>
+  </section>
+  
+  <!-- Add this CSS to style the additional sections -->
+  <style>
+    .how-it-works .steps {
+      display: flex;
+      gap: 30px;
+      justify-content: center;
+      padding-top: 20px;
+    }
+  
+    /* Job Categories Section */
+    .job-categories {
+      padding: 40px 20px;
+      text-align: center;
+    }
+  
+    .job-categories h3 {
+      font-size: 24px;
+      color: #333;
+      margin-bottom: 20px;
+    }
+  
+    .categories {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+    }
+  
+    .category-card {
+      width: 200px;
+      background-color: #f1f1f1;
+      padding: 20px;
+      border-radius: 8px;
+      text-align: center;
+    }
+  
+    .category-card img {
+      width: 100%;
+      height: 150px;
+      border-radius: 8px;
+      object-fit: cover;
+    }
+  
+    .category-card h4 {
+      font-size: 18px;
+      color: #333;
+      margin-top: 10px;
+    }
+  
+    .category-card p {
+      font-size: 14px;
+      color: #555;
+    }
+  
+    /* Jobs Section */
+    .jobs {
+      padding: 40px 20px;
+      text-align: center;
+    }
+  
+    .jobs h3 {
+      font-size: 24px;
+      color: #333;
+      margin-bottom: 20px;
+    }
+  
+    .job-cards {
+      display: flex;
+      gap: 20px;
+      justify-content: center;
+    }
+  
+    .job-card {
+      width: 250px;
+      background-color: #e0f7e6;
+      padding: 20px;
+      border-radius: 8px;
+      text-align: left;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+  
+    .job-card h4 {
+      font-size: 18px;
+      color: #333;
+    }
+  
+    .job-card p {
+      font-size: 14px;
+      color: #555;
+    }
+  
+    .job-card button {
+      background-color: #4CAF50;
+      color: white;
+      padding: 10px 15px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      font-size: 14px;
+    }
+  
+    .job-card button:hover {
+      background-color: #45a049;
+    }
+  </style>
+<!-- Browse More Button -->
+<div class="browse-more">
+    <button>Browse More</button>
+  </div>
+  
+  <!-- Footer Section -->
+  <footer class="footer">
+    <div class="footer-content">
+      <div class="footer-left">
+        <h4>WWM</h4>
+        <p>Work with Me (WWM) connects job seekers with exciting opportunities across tech, construction, retail, and more. We're committed to making job discovery and applications simple, transparent, and rewarding. Join our community and find your next career step today.</p>
+      </div>
+      
+      <div class="footer-center">
+        <ul>
+          <li>Lorem ipsum</li>
+          <li>Lorem ipsum</li>
+          <li>Lorem ipsum</li>
+          <li>Lorem ipsum</li>
+        </ul>
+      </div>
+      
+      <div class="footer-right">
+        <ul>
+          <li>Lorem ipsum</li>
+          <li>Lorem ipsum</li>
+          <li>Lorem ipsum</li>
+          <li>Lorem ipsum</li>
+        </ul>
+      </div>
+      
+      <div class="footer-social">
+        <a href="#"><img src="email.png" alt="Email Icon"></a>
+        <a href="#"><img src="insta.png" alt="Instagram Icon"></a>
+        <a href="#"><img src="linkedin.png" alt="LinkedIn Icon"></a>
+        <a href="#"><img src="X.jpeg" alt="Icon X"></a>
+      </div>
+    </div>
+  </footer>
+  
+  <!-- Add this CSS for the Browse More button and footer styling -->
+  <style>
+    /* Browse More Button */
+    .browse-more {
+      display: flex;
+      justify-content: center;
+      padding: 20px 0;
+    }
+  
+    .browse-more button {
+      background-color: #4CAF50;
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 5px;
+      font-size: 16px;
+      cursor: pointer;
+    }
+  
+    .browse-more button:hover {
+      background-color: #45a049;
+    }
+  
+    /* Footer Section */
+    .footer {
+      background-color: #2ca678;
+      color: white;
+      padding: 40px 20px;
+    }
+  
+    .footer-content {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+      gap: 20px;
+      max-width: 1000px;
+      margin: 0 auto;
+    }
+  
+    .footer-left {
+      flex: 1;
+      min-width: 200px;
+    }
+  
+    .footer-left h4 {
+      font-size: 24px;
+      margin-bottom: 10px;
+    }
+  
+    .footer-left p {
+      font-size: 14px;
+      line-height: 1.5;
+    }
+  
+    .footer-center, .footer-right {
+      flex: 1;
+      min-width: 100px;
+    }
+  
+    .footer-center ul, .footer-right ul {
+      list-style-type: none;
+      padding: 0;
+    }
+  
+    .footer-center li, .footer-right li {
+      margin: 8px 0;
+      font-size: 14px;
+    }
+  
+    .footer-social {
+      display: flex;
+      gap: 15px;
+      align-items: center;
+    }
+  
+    .footer-social a img {
+      width: 24px;
+      height: 24px;
+    }
+  </style>
+    
+
+</body>;;
+
