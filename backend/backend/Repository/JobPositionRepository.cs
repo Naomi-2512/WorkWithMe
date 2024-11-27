@@ -22,7 +22,7 @@ namespace backend.Repository
 
             Job? job = dataContext.Jobs.FirstOrDefault(job => job.JobId == JobId);
 
-            if (job == null) return new RepositoryResult<Position>(false, "Positions unavailable because Job is not found.", new List<Position>());
+            if (job == null) return new RepositoryResult<Position>(false, "Cannot create position because Job is not found.", new List<Position>());
 
             dataContext.Positions.Add(position);
 
