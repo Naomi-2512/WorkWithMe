@@ -6,7 +6,6 @@ namespace backend.Models
     {
         [Key]
         public string ApprovalId { get; set; }
-
         public string JobId { get; set; }
         public string OwnerId { get; set; }
         public string ApplierId { get; set; }
